@@ -15,9 +15,9 @@ using SixLabors.Primitives;
 using Microsoft.WindowsAzure.Storage.Auth;
 using Microsoft.WindowsAzure.Storage.Blob;
 
-namespace PaNDA
+namespace TrashPanda
 {
-    public static class PaNDAHelper
+    public static class TrashPandaHelper
     {
 
         public static async Task<byte[]> ReplaceWordsInImage(
