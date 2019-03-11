@@ -20,7 +20,11 @@ namespace PaNDA
     public static class PaNDAHelper
     {
 
-        public static async Task<byte[]> ReplaceWordsInImage(ComputerVisionClient client, byte[] originalImage, string[] wordsToReplace, decimal scaleUp = 1, string endpoint = "https://eastus.api.cognitive.microsoft.com/")
+        public static async Task<byte[]> ReplaceWordsInImage(
+            ComputerVisionClient client,
+            byte[] originalImage,
+            string[] wordsToReplace,
+            decimal scaleUp = 1)
         {
             IImageFormat imgFormat;
             using (var slxImage = Image.Load(originalImage, out imgFormat)) {
