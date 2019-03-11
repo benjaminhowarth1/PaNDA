@@ -4,8 +4,8 @@
 
 ### What is Trash PaNDA? ###
 
-Trash PaNDA is a tool to remove text from your images using [SixLabors' ImageSharp](https://github.com/SixLabors/ImageSharp) and [Microsoft's Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/Home).  
-I initially designed it to be used to remove client names from screenshots of my code and tool windows, to comply with non-disclosure agreements (NDAs).
+Trash PaNDA is a tool to mask text from your images using [SixLabors' ImageSharp](https://github.com/SixLabors/ImageSharp) and [Microsoft's Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/Home).  
+I initially designed it to be used to mask client names from screenshots of my code and tool windows, to comply with non-disclosure agreements (NDAs).
 
 ### How do I use it? ###
 
