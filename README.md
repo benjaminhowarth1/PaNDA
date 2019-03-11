@@ -1,6 +1,6 @@
 # Trash PaNDA #
 
-![TrashPaNDA icon](logo.svg)
+![TrashPaNDA icon](logo.svg?sanitize=false)
 
 ### What is Trash PaNDA? ###
 
