@@ -1,6 +1,6 @@
 # <img alt="Trash PaNDA icon" src="logo.svg" style="width:75px;text-align:center;" /> Trash PaNDA #
 
-![Example of masked text in NDepend screenshot](example-ndepend.png)
+![Example of masked text in NDepend screenshot](example-ndepend-crop.png)
 
 ### What is Trash PaNDA? ###
 
