@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <Authors>Benjamin Howarth</Authors>
+    <Company>Benjamin Howarth Ltd.</Company>
+    <Product>Trash PaNDA</Product>
+    <Description>Trash PaNDA masks text in images to help protect confidentiality. It leverages the Azure Computer Vision API to recognise text and then allows keywords to be masked using ImageSharp accordingly.</Description>
+    <Copyright>© 2019 Benjamin Howarth Ltd., Benjamin Howarth &amp; contributors. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/benjaminhowarth1/Trash-PaNDA</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/benjaminhowarth1/Trash-PaNDA/master/logo.svg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/benjaminhowarth1/Trash-PaNDA</RepositoryUrl>
+    <PackageTags>cognitive-services,cognitive,services,computer,vision,computer-vision,text,recognition,text-recognition,azure,trash,panda,trash-panda,image,masking</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
